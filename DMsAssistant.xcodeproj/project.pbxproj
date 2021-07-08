@@ -13,7 +13,6 @@
 		9A76896C26667CC1001BECD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A76896A26667CC1001BECD1 /* Main.storyboard */; };
 		9A76896E26667CC3001BECD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A76896D26667CC3001BECD1 /* Assets.xcassets */; };
 		9A76897126667CC3001BECD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A76896F26667CC3001BECD1 /* LaunchScreen.storyboard */; };
-		9A7689822672528D001BECD1 /* srd_5e_monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A7689812672528D001BECD1 /* srd_5e_monsters.json */; };
 		9AEE31BA267B9291001DAED7 /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31B9267B9291001DAED7 /* EquipmentViewController.swift */; };
 		9AEE31BD267B92A6001DAED7 /* SpellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31BC267B92A6001DAED7 /* SpellsViewController.swift */; };
 		9AEE31C0267B95AA001DAED7 /* MonsterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31BF267B95AA001DAED7 /* MonsterAPI.swift */; };
@@ -36,7 +35,6 @@
 		9A76896D26667CC3001BECD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A76897026667CC3001BECD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A76897226667CC3001BECD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9A7689812672528D001BECD1 /* srd_5e_monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = srd_5e_monsters.json; sourceTree = "<group>"; };
 		9AEE31B9267B9291001DAED7 /* EquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentViewController.swift; sourceTree = "<group>"; };
 		9AEE31BC267B92A6001DAED7 /* SpellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsViewController.swift; sourceTree = "<group>"; };
 		9AEE31BF267B95AA001DAED7 /* MonsterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterAPI.swift; sourceTree = "<group>"; };
@@ -82,25 +80,48 @@
 			children = (
 				9A76896426667CC1001BECD1 /* AppDelegate.swift */,
 				9A76896626667CC1001BECD1 /* SceneDelegate.swift */,
-				9A76896826667CC1001BECD1 /* MonstersViewController.swift */,
-				9AEE31CE268E13E1001DAED7 /* MonsterDetailTableViewController.swift */,
-				9AEE31C2267B9DC7001DAED7 /* Monster.swift */,
-				9AEE31B9267B9291001DAED7 /* EquipmentViewController.swift */,
-				9AEE31CB268CBCD7001DAED7 /* EquipmentDetailViewController.swift */,
-				9AEE31C5267CE04C001DAED7 /* Equipment.swift */,
-				9AEE31BC267B92A6001DAED7 /* SpellsViewController.swift */,
-				9AEE31D12694B6D0001DAED7 /* SpellsDetailsTableViewController.swift */,
-				9AEE31C8267CE452001DAED7 /* Spell.swift */,
-				9AEE31BF267B95AA001DAED7 /* MonsterAPI.swift */,
-				9AEE31D826974D52001DAED7 /* EquipmentAPI.swift */,
-				9AEE31D526974D38001DAED7 /* SpellAPI.swift */,
 				9A76896A26667CC1001BECD1 /* Main.storyboard */,
+				9AEE31DC26974F03001DAED7 /* API */,
+				9AEE31DE26974F13001DAED7 /* Model */,
+				9AEE31E026974F4B001DAED7 /* UI */,
 				9A76896D26667CC3001BECD1 /* Assets.xcassets */,
 				9A76896F26667CC3001BECD1 /* LaunchScreen.storyboard */,
-				9A7689812672528D001BECD1 /* srd_5e_monsters.json */,
 				9A76897226667CC3001BECD1 /* Info.plist */,
 			);
 			path = DMsAssistant;
+			sourceTree = "<group>";
+		};
+		9AEE31DC26974F03001DAED7 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE31BF267B95AA001DAED7 /* MonsterAPI.swift */,
+				9AEE31D826974D52001DAED7 /* EquipmentAPI.swift */,
+				9AEE31D526974D38001DAED7 /* SpellAPI.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		9AEE31DE26974F13001DAED7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9AEE31C2267B9DC7001DAED7 /* Monster.swift */,
+				9AEE31C5267CE04C001DAED7 /* Equipment.swift */,
+				9AEE31C8267CE452001DAED7 /* Spell.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		9AEE31E026974F4B001DAED7 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9A76896826667CC1001BECD1 /* MonstersViewController.swift */,
+				9AEE31CE268E13E1001DAED7 /* MonsterDetailTableViewController.swift */,
+				9AEE31B9267B9291001DAED7 /* EquipmentViewController.swift */,
+				9AEE31CB268CBCD7001DAED7 /* EquipmentDetailViewController.swift */,
+				9AEE31BC267B92A6001DAED7 /* SpellsViewController.swift */,
+				9AEE31D12694B6D0001DAED7 /* SpellsDetailsTableViewController.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,7 +181,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A7689822672528D001BECD1 /* srd_5e_monsters.json in Resources */,
 				9A76897126667CC3001BECD1 /* LaunchScreen.storyboard in Resources */,
 				9A76896E26667CC3001BECD1 /* Assets.xcassets in Resources */,
 				9A76896C26667CC1001BECD1 /* Main.storyboard in Resources */,

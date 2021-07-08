@@ -23,7 +23,6 @@ struct SpellAPI {
         
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
             
-            
             guard error == nil, let data = data else {
                 completion(.failure(SpellErrors.requestError))
                 return
@@ -46,7 +45,6 @@ struct SpellAPI {
         }
         
         let task = URLSession.shared.dataTask(with: url) { (data, response, error) in
-            
             
             guard error == nil, let data = data else {
                 completion(.failure(SpellErrors.requestError))
