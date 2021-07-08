@@ -9,23 +9,45 @@
 /* Begin PBXBuildFile section */
 		9A76896526667CC1001BECD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76896426667CC1001BECD1 /* AppDelegate.swift */; };
 		9A76896726667CC1001BECD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76896626667CC1001BECD1 /* SceneDelegate.swift */; };
-		9A76896926667CC1001BECD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76896826667CC1001BECD1 /* ViewController.swift */; };
+		9A76896926667CC1001BECD1 /* MonstersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A76896826667CC1001BECD1 /* MonstersViewController.swift */; };
 		9A76896C26667CC1001BECD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A76896A26667CC1001BECD1 /* Main.storyboard */; };
 		9A76896E26667CC3001BECD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A76896D26667CC3001BECD1 /* Assets.xcassets */; };
 		9A76897126667CC3001BECD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A76896F26667CC3001BECD1 /* LaunchScreen.storyboard */; };
 		9A7689822672528D001BECD1 /* srd_5e_monsters.json in Resources */ = {isa = PBXBuildFile; fileRef = 9A7689812672528D001BECD1 /* srd_5e_monsters.json */; };
+		9AEE31BA267B9291001DAED7 /* EquipmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31B9267B9291001DAED7 /* EquipmentViewController.swift */; };
+		9AEE31BD267B92A6001DAED7 /* SpellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31BC267B92A6001DAED7 /* SpellsViewController.swift */; };
+		9AEE31C0267B95AA001DAED7 /* MonsterAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31BF267B95AA001DAED7 /* MonsterAPI.swift */; };
+		9AEE31C3267B9DC7001DAED7 /* Monster.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31C2267B9DC7001DAED7 /* Monster.swift */; };
+		9AEE31C6267CE04C001DAED7 /* Equipment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31C5267CE04C001DAED7 /* Equipment.swift */; };
+		9AEE31C9267CE452001DAED7 /* Spell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31C8267CE452001DAED7 /* Spell.swift */; };
+		9AEE31CC268CBCD7001DAED7 /* EquipmentDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31CB268CBCD7001DAED7 /* EquipmentDetailViewController.swift */; };
+		9AEE31CF268E13E1001DAED7 /* MonsterDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31CE268E13E1001DAED7 /* MonsterDetailTableViewController.swift */; };
+		9AEE31D22694B6D0001DAED7 /* SpellsDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31D12694B6D0001DAED7 /* SpellsDetailsTableViewController.swift */; };
+		9AEE31D626974D38001DAED7 /* SpellAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31D526974D38001DAED7 /* SpellAPI.swift */; };
+		9AEE31D926974D52001DAED7 /* EquipmentAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AEE31D826974D52001DAED7 /* EquipmentAPI.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A76896126667CC1001BECD1 /* DMsAssistant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DMsAssistant.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A76896426667CC1001BECD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9A76896626667CC1001BECD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9A76896826667CC1001BECD1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A76896826667CC1001BECD1 /* MonstersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonstersViewController.swift; sourceTree = "<group>"; };
 		9A76896B26667CC1001BECD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9A76896D26667CC3001BECD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A76897026667CC3001BECD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A76897226667CC3001BECD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9A7689812672528D001BECD1 /* srd_5e_monsters.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = srd_5e_monsters.json; sourceTree = "<group>"; };
+		9AEE31B9267B9291001DAED7 /* EquipmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentViewController.swift; sourceTree = "<group>"; };
+		9AEE31BC267B92A6001DAED7 /* SpellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsViewController.swift; sourceTree = "<group>"; };
+		9AEE31BF267B95AA001DAED7 /* MonsterAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterAPI.swift; sourceTree = "<group>"; };
+		9AEE31C2267B9DC7001DAED7 /* Monster.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Monster.swift; sourceTree = "<group>"; };
+		9AEE31C5267CE04C001DAED7 /* Equipment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Equipment.swift; sourceTree = "<group>"; };
+		9AEE31C8267CE452001DAED7 /* Spell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spell.swift; sourceTree = "<group>"; };
+		9AEE31CB268CBCD7001DAED7 /* EquipmentDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentDetailViewController.swift; sourceTree = "<group>"; };
+		9AEE31CE268E13E1001DAED7 /* MonsterDetailTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonsterDetailTableViewController.swift; sourceTree = "<group>"; };
+		9AEE31D12694B6D0001DAED7 /* SpellsDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsDetailsTableViewController.swift; sourceTree = "<group>"; };
+		9AEE31D526974D38001DAED7 /* SpellAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellAPI.swift; sourceTree = "<group>"; };
+		9AEE31D826974D52001DAED7 /* EquipmentAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquipmentAPI.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,7 +82,18 @@
 			children = (
 				9A76896426667CC1001BECD1 /* AppDelegate.swift */,
 				9A76896626667CC1001BECD1 /* SceneDelegate.swift */,
-				9A76896826667CC1001BECD1 /* ViewController.swift */,
+				9A76896826667CC1001BECD1 /* MonstersViewController.swift */,
+				9AEE31CE268E13E1001DAED7 /* MonsterDetailTableViewController.swift */,
+				9AEE31C2267B9DC7001DAED7 /* Monster.swift */,
+				9AEE31B9267B9291001DAED7 /* EquipmentViewController.swift */,
+				9AEE31CB268CBCD7001DAED7 /* EquipmentDetailViewController.swift */,
+				9AEE31C5267CE04C001DAED7 /* Equipment.swift */,
+				9AEE31BC267B92A6001DAED7 /* SpellsViewController.swift */,
+				9AEE31D12694B6D0001DAED7 /* SpellsDetailsTableViewController.swift */,
+				9AEE31C8267CE452001DAED7 /* Spell.swift */,
+				9AEE31BF267B95AA001DAED7 /* MonsterAPI.swift */,
+				9AEE31D826974D52001DAED7 /* EquipmentAPI.swift */,
+				9AEE31D526974D38001DAED7 /* SpellAPI.swift */,
 				9A76896A26667CC1001BECD1 /* Main.storyboard */,
 				9A76896D26667CC3001BECD1 /* Assets.xcassets */,
 				9A76896F26667CC3001BECD1 /* LaunchScreen.storyboard */,
@@ -141,9 +174,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9A76896926667CC1001BECD1 /* ViewController.swift in Sources */,
+				9A76896926667CC1001BECD1 /* MonstersViewController.swift in Sources */,
 				9A76896526667CC1001BECD1 /* AppDelegate.swift in Sources */,
+				9AEE31CC268CBCD7001DAED7 /* EquipmentDetailViewController.swift in Sources */,
+				9AEE31D626974D38001DAED7 /* SpellAPI.swift in Sources */,
+				9AEE31C6267CE04C001DAED7 /* Equipment.swift in Sources */,
+				9AEE31C0267B95AA001DAED7 /* MonsterAPI.swift in Sources */,
+				9AEE31BD267B92A6001DAED7 /* SpellsViewController.swift in Sources */,
 				9A76896726667CC1001BECD1 /* SceneDelegate.swift in Sources */,
+				9AEE31CF268E13E1001DAED7 /* MonsterDetailTableViewController.swift in Sources */,
+				9AEE31BA267B9291001DAED7 /* EquipmentViewController.swift in Sources */,
+				9AEE31D22694B6D0001DAED7 /* SpellsDetailsTableViewController.swift in Sources */,
+				9AEE31D926974D52001DAED7 /* EquipmentAPI.swift in Sources */,
+				9AEE31C3267B9DC7001DAED7 /* Monster.swift in Sources */,
+				9AEE31C9267CE452001DAED7 /* Spell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
